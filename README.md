@@ -1,12 +1,42 @@
-# React + Vite
+# React Form Validation (with Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a complete form validation system built with **React** and **Vite** without using any third-party validation libraries. It includes real-time form validation, error handling, conditional rendering, and navigation to a success page after form submission.
 
-Currently, two official plugins are available:
+## 🔧 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [React Router](https://reactrouter.com/)
+- [Bootstrap](https://getbootstrap.com/) (for styling)
 
-## Expanding the ESLint configuration
+## 📋 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Real-time validation for all fields  
+✅ Shows error messages below each field  
+✅ Submit button is disabled until all fields are valid  
+✅ Password field with show/hide functionality  
+✅ Country and city dropdowns  
+✅ Redirects to a success page after successful submission  
+✅ Displays submitted data on the success page  
+✅ Fully responsive using Bootstrap
+
+## 🧾 Form Fields
+
+- First Name (Required)
+- Last Name (Required)
+- Username (Required)
+- Email (Required, Valid format)
+- Password (Show/Hide toggle)
+- Phone Number (Country Code + Number)
+- Country (Dropdown)
+- City (Dropdown – based on selected country)
+- PAN Number
+- Aadhar Number
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Dinkar18/Form-Validation.git
+cd Form-Validation
